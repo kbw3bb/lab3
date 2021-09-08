@@ -11,9 +11,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 library(tidyverse)
+library(ggplot2)
 
 PATH = "cereal.csv"
+df = read.csv(PATH)
 
+
+ggplot(data=df, aes(x=calories, y=rating)) + geom_point()
 
 ```
 
