@@ -1,0 +1,19 @@
+---
+title: "Cereal"
+author: "Joseph Lee (Sangwoo)"
+date: "9/8/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+
+PATH = "cereal.csv"
+
+
+```
+
